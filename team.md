@@ -4,10 +4,16 @@
 
 
 1. Design and create xml file based on topic assigned to each group
+ - [X] The Json file is about construction. To access it [ClickHere](/construction.json)
+ - [X] The XML file is avaiable [Here](/construction.xml)
+ - [X] The XML was validated and you can see it [Here](/XML_Validation.png)
+
 2. Types declaration
  - Create dtd for created xml file
  - Create xsd for created xml file
+
 3. Create xslt to display data in the table format
+
 4. HTML & JS
  - Create html file
  - Dynamically load data from your xml into html
@@ -16,6 +22,6 @@
  - [X] To check Leon's contribution [ClickHere](/leonCzarlinski.md) 
  - [X] To check Oluwole's contribution [ClickHere](/oluwoleObisanya.md)
 
- 
+
 - Create `project-1/` folder in the root of your repo and push all the project files. Each team member has to have files in their repo, otherwise student won't be graded
 - Each of the team members opens pull request and submits the link to it via blackboard
