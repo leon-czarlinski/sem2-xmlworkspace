@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="construction.xsl"?>
+<!DOCTYPE buildings [
+  <!ELEMENT buildings (building+)>
+  <!ELEMENT building (startDate, endDate, address, contractors?, workers, equipments?, supplies?)>
+  <!ELEMENT startDate (#PCDATA)>
+  <!ELEMENT endDate (#PCDATA)>
+  <!ELEMENT address (street, city, region, country)>
+  <!ELEMENT street (#PCDATA)>
+  <!ELEMENT city (#PCDATA)>
+  <!ELEMENT region (#PCDATA)>
+  <!ELEMENT country (#PCDATA)>
+  <!ELEMENT contractors (#PCDATA)>
+  <!ELEMENT workers (worker+)>
+  <!ELEMENT worker (firstName, lastName, role)>
+  <!ELEMENT firstName (#PCDATA)>
+  <!ELEMENT lastName (#PCDATA)>
+  <!ELEMENT role (#PCDATA)>
+  <!ELEMENT equipments (equipment+)>
+  <!ELEMENT equipment (type, qty)>
+  <!ELEMENT type (#PCDATA)>
+  <!ELEMENT qty (#PCDATA)>
+  <!ELEMENT supplies (supply+)>
+  <!ELEMENT supply (material, qty)>
+  <!ELEMENT material (#PCDATA)>
+  <!ELEMENT qty (#PCDATA)>
+  <!ATTLIST building id CDATA #REQUIRED>
+  <!ATTLIST equipment id CDATA #REQUIRED>
+  <!ATTLIST supply id CDATA #REQUIRED>
+]>
 <buildings>
   <building>
     <startDate>2007-08-19</startDate>
