@@ -16,6 +16,7 @@
 
 ## 3. Create xslt to display data in the table format
  - [X] To access it [ClickHere](construction.xml)
+ - [X] To see how is formated [ClickHere](XML_Visualization.png)
 
 ## 4. HTML & JS
  - [X] Create html file Dynamically load data from your xml into html
