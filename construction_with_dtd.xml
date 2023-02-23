@@ -9,7 +9,8 @@
   <!ELEMENT city (#PCDATA)>
   <!ELEMENT region (#PCDATA)>
   <!ELEMENT country (#PCDATA)>
-  <!ELEMENT contractors (#PCDATA)>
+  <!ELEMENT contractors (name)>
+  <!ELEMENT name (#PCDATA)>
   <!ELEMENT workers (worker+)>
   <!ELEMENT worker (firstName, lastName, role)>
   <!ELEMENT firstName (#PCDATA)>
@@ -22,10 +23,6 @@
   <!ELEMENT supplies (supply+)>
   <!ELEMENT supply (material, qty)>
   <!ELEMENT material (#PCDATA)>
-  <!ELEMENT qty (#PCDATA)>
-  <!ATTLIST building id CDATA #REQUIRED>
-  <!ATTLIST equipment id CDATA #REQUIRED>
-  <!ATTLIST supply id CDATA #REQUIRED>
 ]>
 <buildings>
   <building>
