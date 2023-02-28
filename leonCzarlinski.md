@@ -10,4 +10,4 @@
 - [X] Since we both wanted to have the experience to work on the HTML and JavaScript, we decided to work on two HTMLs. I worked on the displayConstruction2. To access the folder [ClickHere](/displayConstruction2/)
 - [X] I worked with three different files while working with the visualization. I worked with the [HTML](/displayConstruction2/displayConstruction2.html), the [CSS](/displayConstruction2/style.css) and with the [JavaScript](/displayConstruction2/script.js)
 - [X] To see how the visualization ended up [ClickHere](displayConstruction2.png)
-- [X] Working with the HTML was very chaleging this time, because the idea was to display the workers, equipments and supply inside of different tables. It was challenging, but I could learn a lot. 
+- [X] Working with the HTML was very challenging this time, because the idea was to display the workers, equipments and supply inside of different tables. To do so, I had to create other const's with [] and push in a different way. Each step in coding with javascript was challenging, but I could learn a lot. 
