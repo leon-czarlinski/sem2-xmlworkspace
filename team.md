@@ -19,8 +19,8 @@
  - [X] To see how is formated [ClickHere](XML_Visualization.png)
 
 ## 4. HTML & JS - Create html file Dynamically load data from your xml into html:
- - [X] [HTML1](displayConstruction.html) and to see how the displayConstruction 1 is displayind data [ClickHere](/displayConstruction.png)
- - [X] [HTML2](/displayConstruction2/displayConstruction2.html), [JAVASCRIPT](/displayConstruction2/script.js) and to see how the displayConstruction 2 is displayind data [ClickHere](/displayConstruction2.png)
+ - [X] [HTML1](displayConstruction.html) and to see how the displayConstruction 1 is displaying data [ClickHere](/displayConstruction.png)
+ - [X] [HTML2](/displayConstruction2/displayConstruction2.html), [JAVASCRIPT](/displayConstruction2/script.js) and to see how the displayConstruction 2 is displaying data [ClickHere](/displayConstruction2.png)
  
 ## 5. Documentation: each team member has to create own .md file and describe how they contributed to this project. Provide as many details as you can as this project will be graded individually
  - [X] To check Leon's contribution [ClickHere](/leonCzarlinski.md) 
