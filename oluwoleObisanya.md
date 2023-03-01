@@ -2,9 +2,6 @@
 # Oluwole OBISANYA
 # Topic: Construction
 
-## My Contribution to the team:
-
-
 ## My Contribution to the project:
 - [X] I used the data of the XML file converted by Leon to create the DTD, XSL and XSLT files and making sure they were valid.
 - [X] I worked on the HTML page, which dynamically loads the data from the xml file into the html webpage. [HTML](/displayConstruction.html)
