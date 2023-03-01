@@ -29,7 +29,7 @@ The XSLT file starts with an XML declaration specifying the version and encoding
 
 ## Creating the HTML & JS
 
-Creating the Javascript code that retrieves the data from an XML file and populates the HTML Page, here are the few steps I followed to deliver the expected output:
+Creating the Javascript code that retrieves the data from an XML file and populates the HTML Page, here are the few steps I followed to deliver the expected output for this project:
 
 - [X] I Created a new XMLHttpRequest object and opened a connection to the "construction.xml" file.
 - [X] Set the responseType to "document" to parse the response as an XML document.
