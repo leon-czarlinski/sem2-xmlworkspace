@@ -3,7 +3,7 @@
 # Topic: Construction
 
 ## My Contribution to the project:
-- [X] I used the data of the XML file converted by Leon to create the DTD, XSL and XSLT files and making sure they were valid.
+- [X] I used the data of the XML file converted by Leon to create the DTD, XSD and XSLT files and making sure they were valid.
 - [X] I worked on the HTML page, which dynamically loads the data from the xml file into the html webpage. [HTML](/displayConstruction.html)
 
 ## Reports on How I got my Tasks Done:
