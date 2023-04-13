@@ -1,0 +1,61 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+  }
+  
+#blog {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+  }
+  
+  #blog > div {
+    border: 2px solid #067221;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  #blog h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  #blog p {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  #blog p.date {
+  font-style: italic;
+  color: #11ba3b;
+}
+  
+  #blog a {
+    display: block;
+    margin: 1px auto 0;
+    padding: 10px 20px;
+    background-color: #067221;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  #blog a:hover {
+    background-color: #1c3e1f;
+  }
+  
+  #blog img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #blog .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
