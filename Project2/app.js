@@ -23,13 +23,15 @@ fetch(URL)
       return;
     }
 
-    articlesHtml = data.data.map(article => {
+    let articlesHtml = '';
+
+    data.data.forEach(article => {
       let imageHtml = '';
       if (article.image) {
         imageHtml = `<img src="${article.image}" alt="${article.title}">`;
       }
       const description = article.description.slice(0, 150);
-      return `
+      articlesHtml += `
         <div>
           <h2>${article.title}</h2>
           ${imageHtml}
@@ -40,8 +42,8 @@ fetch(URL)
           </div>
         </div>
       `;
-    }).join('');
-
+    });
+    
 
     blogDiv.innerHTML = articlesHtml;
   })
